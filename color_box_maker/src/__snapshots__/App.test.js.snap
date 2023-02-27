@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h1>
+        Color Box Maker!
+      </h1>
+    </header>
+    <div
+      class="BoxList"
+    >
+      Create a new box by selecting height, width, and color.
+      <div
+        class="NewBoxForm"
+      >
+        <form>
+          <div
+            class="NewBoxForm-form-section"
+          >
+            <label
+              for="height"
+            >
+              Height (pixels 50-1000): 
+            </label>
+            <input
+              id="height"
+              max="1000"
+              min="50"
+              name="height"
+              required=""
+              type="number"
+              value=""
+            />
+          </div>
+          <div
+            class="NewBoxForm-form-section"
+          >
+            <label
+              for="width"
+            >
+              Width (pixels 50-1000): 
+            </label>
+            <input
+              id="width"
+              max="1000"
+              min="50"
+              name="width"
+              required=""
+              type="number"
+              value=""
+            />
+          </div>
+          <div
+            class="NewBoxForm-form-section"
+          >
+            <label
+              for="backgroundColor"
+            >
+              Color: 
+            </label>
+            <input
+              id="backgroundColor"
+              name="backgroundColor"
+              type="color"
+              value="rgb(0, 0, 0)"
+            />
+          </div>
+          <button>
+            Create Box
+          </button>
+        </form>
+      </div>
+      <div
+        class="BoxList-boxarea"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

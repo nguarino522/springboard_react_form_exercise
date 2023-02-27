@@ -1,0 +1,9 @@
+.BoxList {
+    color: white;
+}
+
+.BoxList-boxarea {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}

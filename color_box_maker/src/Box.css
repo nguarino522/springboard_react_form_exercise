@@ -1,0 +1,14 @@
+.Box {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Box-button {
+    padding: 2px;
+}
+
+.Box-button:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
