@@ -1,0 +1,27 @@
+.TodoList {
+    color: white;
+}
+
+.TodoList-form-section {
+    background-color: #2dd897c5;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.TodoList-task-section {
+    background-color: #2dd897c5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
